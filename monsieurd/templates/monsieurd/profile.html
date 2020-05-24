@@ -1,0 +1,67 @@
+{% load static %}
+
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <link rel="shortcut icon" type="image/png" href="{% static 'monsieurd/icons/favicon.ico' %}"/>
+  <title>Duka ebatilisky pridor</title>
+  <style>
+    table {
+      border-collapse: collapse;
+    }
+
+    td, 
+    th {
+      border: 1px solid black;
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <p>Duka pidor</p>
+  </div>
+
+
+  <table>
+    <thead>
+      <tr>
+        <th>Fix In US Dollars</th>
+        <th>Hours in Month</th>
+        <th>Rate / hr</th>
+        <th>Worked hours</th>
+        <th>Month salary</th>
+        <th>Overtime hours</th>
+        <th>Overtime in US</th>
+        <th>Total in US Dollars</th>
+        <th>Course</th>
+        <th>comments:</th>
+        <th>Paid BYN</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>3300</td>
+        <td>176</td>
+        <td>18.75</td>
+        <td>176</td>
+        <td>3300</td>
+        <td>0</td>
+        <td>3300</td>
+        <td>2.0523</td>
+        <td></td>
+        <td></td>
+        <td>6773</td>
+      </tr>
+
+    <tbody>
+  </table>
+
+  <button>
+    create report
+  </button>
+</body>
+
+</html>
