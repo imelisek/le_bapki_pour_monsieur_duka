@@ -1,7 +1,9 @@
 from django.contrib import admin
-from .models import Post
+from .models import Department, Position, Employee
 
-admin.site.register(Post)
+admin.site.register(Department)
+admin.site.register(Position)
+admin.site.register(Employee)
 
 
 # Register your models here.
